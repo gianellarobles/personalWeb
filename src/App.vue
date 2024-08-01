@@ -11,14 +11,25 @@ import HelloWorld from './components/HelloWorld.vue'
     <div class="wrapper">
       <HelloWorld msg="Hello, my name is Gianella" />
 
-      <nav>
+      <!---This is the default navigation bar for web
+        
+        <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
-      </nav>
+      </nav> 
+    --> 
+    <!-- Other Navbar that I might change it into -->
+  <nav class="navbar bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+    </div>
+  </nav>
     </div>
   </header>
 
-  <RouterView />
+ 
+
+ <!-- <RouterView /> --> 
 </template>
 
 <style scoped>
