@@ -19,11 +19,7 @@ import HelloWorld from './components/HelloWorld.vue'
       </nav> 
     --> 
     <!-- Other Navbar that I might change it into -->
-  <nav class="navbar bg-body-tertiary">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
-    </div>
-  </nav>
+ 
     </div>
   </header>
 
@@ -43,7 +39,7 @@ header {
   margin: 0 auto 2rem;
 }
 
-nav {
+/* nav {
   width: 100%;
   font-size: 12px;
   text-align: center;
@@ -67,8 +63,8 @@ nav a {
 nav a:first-of-type {
   border: 0;
 }
-
-@media (min-width: 1024px) {
+*/
+/* @media (min-width: 1024px) {
   header {
     display: flex;
     place-items: center;
@@ -93,5 +89,5 @@ nav a:first-of-type {
     padding: 1rem 0;
     margin-top: 1rem;
   }
-}
+} */
 </style>
