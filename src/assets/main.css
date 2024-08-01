@@ -31,15 +31,15 @@ a,
   }
 }
 
-@media (min-width: 1024px) {
+/*@media (min-width: 1024px) {
   body {
     display: flex;
     place-items: center;
   }
 
-  /* makes the screens not have the columns
+   makes the screens not have the columns
   #app {
     display: flex;
     place-items: center;
-  } */
-} 
+  } 
+} */
