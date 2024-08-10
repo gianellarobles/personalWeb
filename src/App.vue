@@ -30,12 +30,16 @@ import HelloWorld from './components/HelloWorld.vue'
     <div id="navbarBasicExample" class="navbar-menu">
       <div class="navbar-start">
         <a class="navbar-item">
-          Home
+          Overview
         </a>
 
         <a class="navbar-item">
           Resume 
         </a>
+
+        <a class="navbar-item">
+          Portfolio
+          </a>
       </div>
 
       <div class="navbar-end">
@@ -49,11 +53,8 @@ import HelloWorld from './components/HelloWorld.vue'
       </div>
     </div>
   </nav>
-     <!-- <HelloWorld msg="Hi, my name is " /> -->
 
-
-    
-
+     <HelloWorld msg="Welcome, I'm " /> 
       <!---This is the default navigation bar for web
         
         <nav>
@@ -77,7 +78,7 @@ header {
   max-height: 100vh;
 }
 .computer{
-  margin-top: 3.2px;
+  margin-top: 3px;
   margin-left: 15px;
 }
 

@@ -4,7 +4,7 @@ import TheWelcome from '../components/TheWelcome.vue'
 
 <template>
   <main>
-    <!--This is the notes for the Home page
-      <TheWelcome />-->
+    <!--This is the notes for the Home <page-->
+      <TheWelcome />
   </main>
 </template>

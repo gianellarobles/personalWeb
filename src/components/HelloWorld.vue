@@ -7,13 +7,18 @@ defineProps<{
 
 <template>
   <div class="greetings">
-
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
     <h1 class="is-size-1 has-text-weight-normal has-text-white">{{ msg }} <span class="is-italic pink">Gianella</span></h1> 
    <h3>
-        You’ve successfully created a project with
-        <a href="https://vitejs.dev/" target="_blank" rel="noopener">Vite</a> +
-        <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>. What's next?
-      </h3>
+  Feel free to browse through my personal website about my passions, projects, and resume.</h3>
     
   </div>
 </template>
@@ -29,6 +34,7 @@ defineProps<{
   .greetings h1,
   .greetings h3 {
     text-align: left;
+
   }
 }
 </style>
