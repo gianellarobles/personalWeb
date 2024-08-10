@@ -31,7 +31,8 @@ a,
   }
 }
 
-/*@media (min-width: 1024px) {
+/* / This makes the screens not be to the left and separated /
+@media (min-width: 1024px) {
   body {
     display: flex;
     place-items: center;
