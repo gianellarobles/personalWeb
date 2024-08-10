@@ -92,7 +92,6 @@ header {
  .navbar-burger:hover{
    background-color: hsla(310, 95%, 49%, 0.2);
    color:white;
-
  }
 
  /* full screen

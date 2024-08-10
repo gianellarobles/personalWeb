@@ -22,8 +22,8 @@ defineProps<{
 <style scoped>
 /* this is the css for app */
 img{
-  height: 450px;
-  width: 450px;
+  height: 425px;
+  width: 425px;
   border-radius: 50%;
   display: block;
   margin: auto;
