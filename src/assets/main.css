@@ -3,7 +3,7 @@
 @import url('@fortawesome/fontawesome-free/css/all.css');
 
 body{
-background-color: #f9d1dc;
+background-color: #f6dae1;
 }
 
 #app {
@@ -17,7 +17,7 @@ background-color: #f9d1dc;
 a,
 .pink {
   text-decoration: none;
-  color: #ff8fab;
+  color: #f797af;
   transition: 0.4s;
   padding: 3px;
 }
