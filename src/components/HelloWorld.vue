@@ -2,30 +2,23 @@
 defineProps<{
   msg: string
 }>()
+
 </script>
 
 <template>
   <div class="greetings">
-    <h1 class="pink">{{ msg }}</h1>
-    <h3>
-      You’ve successfully created a project with
-      <a href="https://vitejs.dev/" target="_blank" rel="noopener">Vite</a> +
-      <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>. What's next?
-    </h3>
+
+    <h1 class="is-size-1 has-text-weight-normal has-text-white">{{ msg }} <span class="is-italic pink">Gianella</span></h1> 
+   <h3>
+        You’ve successfully created a project with
+        <a href="https://vitejs.dev/" target="_blank" rel="noopener">Vite</a> +
+        <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>. What's next?
+      </h3>
+    
   </div>
 </template>
 
 <style scoped>
-h1 {
-  font-weight: 500;
-  font-size: 2.6rem;
-  position: relative;
-  top: -10px;
-}
-
-h3 {
-  font-size: 1.2rem;
-}
 
 .greetings h1,
 .greetings h3 {
