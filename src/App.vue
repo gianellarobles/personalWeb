@@ -9,7 +9,8 @@ import HelloWorld from './components/HelloWorld.vue'
 
 
     <div class="wrapper">
-      <HelloWorld msg="Hello, my name is Gianella" />
+      <HelloWorld msg="Hi, my name is " />
+    
 
       <!---This is the default navigation bar for web
         
