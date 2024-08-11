@@ -22,17 +22,17 @@ defineProps<{
 <style scoped>
 /* this is the css for app */
 img{
-  height: 300px;
-  width: 300px;
+  height: 250px;
+  width: 240px;
   border-radius: 50%;
   display: block;
   margin: auto;
-  margin-top: -540px;
+  margin-top: -425px;
 }
 
 .greetings h1{
   text-align: center;
-  margin-top: 520px;
+  margin-top: 400px;
 }
 .greetings h3 {
   text-align: center;
@@ -52,7 +52,7 @@ img{
     margin-top: -275px;
     float: right;
     height: 425px;
-    width: 425px;
+    width: 410px;
   }
 }
 </style>
