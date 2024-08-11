@@ -29,7 +29,7 @@ import HelloWorld from './components/HelloWorld.vue'
 
     <div id="navbarBasicExample" class="navbar-menu">
       <div class="navbar-start">
-        <a class="navbar-item">
+        <a class="navbar-item" href="/overview">
           Overview
         </a>
 
