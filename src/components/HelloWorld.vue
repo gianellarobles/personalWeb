@@ -8,20 +8,21 @@ defineProps<{
 
 <template>
   <div class="greetings">
- 
-    <h1 class="is-size-1 has-text-weight-normal has-text-white">{{ msg }} <span class="is-italic pink">Gianella</span></h1> 
-   <h3>
-  Feel free to browse through my personal website about my passions, projects, and resume.</h3>
-<br>
-<br>
-  <img src="/Gianella.jpg">
+
+    <h1 class="is-size-1 has-text-weight-normal has-text-white">{{ msg }} <span class="is-italic pink">Gianella</span>
+    </h1>
+    <h3>
+      Feel free to browse through my personal website about my passions, projects, and resume.</h3>
+    <br>
+    <br>
+    <img src="/Gianella.jpg">
 
   </div>
 </template>
 
 <style scoped>
 /* this is the css for app */
-img{
+img {
   height: 250px;
   width: 240px;
   border-radius: 50%;
@@ -30,29 +31,31 @@ img{
   margin-top: -425px;
 }
 
-.greetings h1{
+.greetings h1 {
   text-align: center;
   margin-top: 400px;
 }
+
 .greetings h3 {
   text-align: center;
-  
+
 }
 
-/* this is the css when full screen */ 
+/* this is the css when full screen */
 @media (min-width: 1024px) {
-  .greetings h1{
+  .greetings h1 {
     text-align: left;
     margin-top: 300px;
   }
+
   .greetings h3 {
     text-align: left;
   }
-  img{
+
+  img {
     margin-top: -275px;
     float: right;
     height: 425px;
     width: 410px;
   }
-}
-</style>
+}</style>

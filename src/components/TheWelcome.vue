@@ -7,7 +7,7 @@
   <template>
     <div class="greetings">
 
-          hi, this is my overview page
+
     
     </div>
  

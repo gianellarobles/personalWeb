@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
+import { RouterLink } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
 
 
@@ -7,8 +7,7 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
 <header>
-
-    <div class="wrapper">
+  
       <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <a class="navbar-item" href="/">
@@ -29,9 +28,9 @@ import HelloWorld from './components/HelloWorld.vue'
 
     <div id="navbarBasicExample" class="navbar-menu">
       <div class="navbar-start">
-        <a class="navbar-item" href="/overview">
+      <RouterLink class="navbar-item" to="/overview">
           Overview
-        </a>
+        </RouterLink>
 
         <a class="navbar-item">
           Resume 
@@ -64,11 +63,8 @@ import HelloWorld from './components/HelloWorld.vue'
     --> 
     <!-- Other Navbar that I might change it into -->
  
-    </div>
-  </header>
-
- 
-
+  
+  </header> 
  <!-- <RouterView /> --> 
 </template>
 
