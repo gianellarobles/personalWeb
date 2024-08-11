@@ -6,5 +6,6 @@ import TheWelcome from '../components/TheWelcome.vue'
   <main>
     <!--This is the notes for the Home <page-->
       <TheWelcome />
+      
   </main>
 </template>
