@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { RouterLink } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
+import HomeView from './views/HomeView.vue'
 
 
 </script>
@@ -53,7 +53,7 @@ import HelloWorld from './components/HelloWorld.vue'
     </div>
   </nav>
 
-     <HelloWorld msg="Welcome, I'm " /> 
+     <HomeView msg="Welcome, I'm " /> 
       <!---This is the default navigation bar for web
         
         <nav>
@@ -65,7 +65,8 @@ import HelloWorld from './components/HelloWorld.vue'
  
   
   </header> 
- <!-- <RouterView /> --> 
+  <!-- ALLOWS YOU TO SEE DESTINATION OF ROUTERLINK-->
+  <RouterView />
 </template>
 
 <style scoped>
