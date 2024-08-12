@@ -36,9 +36,9 @@ import { RouterLink } from 'vue-router'
           Resume
           </RouterLink>
 
-        <a class="navbar-item">
+          <RouterLink class="navbar-item" to="/portfolio">
           Portfolio
-          </a>
+          </RouterLink>
       </div>
 
       <div class="navbar-end">

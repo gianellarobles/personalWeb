@@ -23,6 +23,11 @@ const router = createRouter({
       path: '/resume',
       name: 'resume',
       component: () => import('../views/ResumeView.vue')
+    },
+    {
+      path: '/portfolio',
+      name: 'portfolio',
+      component: () => import('../views/PortfolioView.vue')
     }
   ]
 });
