@@ -1,15 +1,11 @@
 <script setup lang="ts">
-
-defineProps<{
-  msg: string
-}>()
-
+import { RouterLink } from 'vue-router'
 </script>
 
 <template>
   <div class="greetings">
 
-    <h1 class="is-size-1 has-text-weight-normal has-text-white">{{ msg }} <span class="is-italic pink">Gianella</span>
+    <h1 class="has-text-weight-normal has-text-white">Welcome, I'm <span class="is-italic pink">Gianella</span>
     </h1>
     <h3>
       Feel free to browse through my personal website about my passions, projects, and resume.</h3>
@@ -34,22 +30,25 @@ img {
 .greetings h1 {
   text-align: center;
   margin-top: 400px;
+  font-size: 3em;
 }
 
 .greetings h3 {
   text-align: center;
-
+  font-size: 1em
 }
 
 /* this is the css when full screen */
 @media (min-width: 1024px) {
   .greetings h1 {
+    font-size: 4.2em;
     text-align: left;
     margin-top: 300px;
   }
 
   .greetings h3 {
     text-align: left;
+    font-size: 1.2em
   }
 
   img {

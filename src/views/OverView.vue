@@ -10,6 +10,11 @@
 </template>
 
 <style>
+
+.overview {
+  margin-top: 3px;
+  margin-left: 15px;
+}
 @media (min-width: 1024px) {
   .overview {
     min-height: 100vh;

@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { RouterLink } from 'vue-router'
-import HomeView from './views/HomeView.vue'
+
 
 
 </script>
@@ -32,9 +32,9 @@ import HomeView from './views/HomeView.vue'
           Overview
         </RouterLink>
 
-        <a class="navbar-item">
-          Resume 
-        </a>
+        <RouterLink class="navbar-item" to="/resume">
+          Resume
+          </RouterLink>
 
         <a class="navbar-item">
           Portfolio
@@ -53,7 +53,6 @@ import HomeView from './views/HomeView.vue'
     </div>
   </nav>
 
-     <HomeView msg="Welcome, I'm " /> 
       <!---This is the default navigation bar for web
         
         <nav>
