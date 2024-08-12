@@ -6,12 +6,14 @@
     <h1>Portfolio</h1>
     <p>Here are some of my projects:</p>
 
+    <a href="https://cs.newpaltz.edu/p/s24-02/v2/index.php">
     <img src="/folder-invoices.png" alt="Project 1" />
-
+      </a>
     <br>
 
+    <a href="https://healing-fitness.onrender.com/">
     <img src="/folder-invoices.png" alt="Project 2" />
-
+      </a>
     <br>
     
     <img src="/folder-invoices.png" alt="Project 3" />
