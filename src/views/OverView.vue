@@ -4,7 +4,9 @@
       dnkjsjnlkfnslkd
       lndknsdlknlksf
       ljdnkns
+
     </h1>
+    <img src="/overview.gif">
     
   </div>
 </template>
