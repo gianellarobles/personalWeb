@@ -44,9 +44,9 @@ import { RouterLink } from 'vue-router'
       <div class="navbar-end">
         <div class="navbar-item">
           <div class="buttons">
-            <a class="button is-danger has-text-white">
+            <RouterLink class="button is-danger has-text-white" to="/contact">
               <strong>Contact Me</strong>
-            </a>
+            </RouterLink>
           </div>
         </div>
       </div>
